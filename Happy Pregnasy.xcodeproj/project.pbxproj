@@ -13,6 +13,7 @@
 		DBEF15B82A25130400D456D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBEF15B72A25130400D456D7 /* Preview Assets.xcassets */; };
 		DBEF15BA2A25130400D456D7 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEF15B92A25130400D456D7 /* Persistence.swift */; };
 		DBEF15BD2A25130400D456D7 /* Happy_Pregnasy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DBEF15BB2A25130400D456D7 /* Happy_Pregnasy.xcdatamodeld */; };
+		DBEF15C52A25135600D456D7 /* WeightEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEF15C42A25135600D456D7 /* WeightEntryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DBEF15B92A25130400D456D7 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		DBEF15BC2A25130400D456D7 /* Happy_Pregnasy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Happy_Pregnasy.xcdatamodel; sourceTree = "<group>"; };
 		DBEF15BE2A25130400D456D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBEF15C42A25135600D456D7 /* WeightEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightEntryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				DBEF15B02A25130100D456D7 /* Happy_PregnasyApp.swift */,
+				DBEF15C42A25135600D456D7 /* WeightEntryView.swift */,
 				DBEF15B22A25130100D456D7 /* ContentView.swift */,
 				DBEF15B42A25130400D456D7 /* Assets.xcassets */,
 				DBEF15B92A25130400D456D7 /* Persistence.swift */,
@@ -145,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBEF15C52A25135600D456D7 /* WeightEntryView.swift in Sources */,
 				DBEF15BA2A25130400D456D7 /* Persistence.swift in Sources */,
 				DBEF15BD2A25130400D456D7 /* Happy_Pregnasy.xcdatamodeld in Sources */,
 				DBEF15B32A25130100D456D7 /* ContentView.swift in Sources */,
