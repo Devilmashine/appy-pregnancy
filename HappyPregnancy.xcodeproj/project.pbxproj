@@ -43,23 +43,23 @@
 		DBEF15BC2A25130400D456D7 /* HappyPregnancy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HappyPregnancy.xcdatamodel; sourceTree = "<group>"; };
 		DBEF15BE2A25130400D456D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBEF15C42A25135600D456D7 /* WeightEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightEntryView.swift; sourceTree = "<group>"; };
-		DBEF15E02A25135600D456D7 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CoreDataManager.swift; path = HappyPregnancy/Managers/CoreDataManager.swift; sourceTree = "<group>"; };
-		DBEF15E22A25135600D456D7 /* PregnancyInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PregnancyInfoViewModel.swift; path = HappyPregnancy/ViewModels/PregnancyInfoViewModel.swift; sourceTree = "<group>"; };
-		DBEF15E42A25135600D456D7 /* DiaryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DiaryViewModel.swift; path = HappyPregnancy/ViewModels/Diary/DiaryViewModel.swift; sourceTree = "<group>"; };
-		DBEF15E62A25135600D456D7 /* KicksCounterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = KicksCounterViewModel.swift; path = HappyPregnancy/ViewModels/KicksCounter/KicksCounterViewModel.swift; sourceTree = "<group>"; };
-		DBEF15E82A25135600D456D7 /* ChecklistViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ChecklistViewModel.swift; path = HappyPregnancy/ViewModels/Checklist/ChecklistViewModel.swift; sourceTree = "<group>"; };
-		DBEF15EA2A25135600D456D7 /* MeasurementViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MeasurementViewModel.swift; path = HappyPregnancy/ViewModels/Measurement/MeasurementViewModel.swift; sourceTree = "<group>"; };
-		DBEF15EC2A25135600D456D7 /* DoctorQuestionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DoctorQuestionViewModel.swift; path = HappyPregnancy/ViewModels/DoctorQuestion/DoctorQuestionViewModel.swift; sourceTree = "<group>"; };
-		DBEF15EE2A25135600D456D7 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainTabView.swift; path = HappyPregnancy/Views/MainTabView.swift; sourceTree = "<group>"; };
-		DBEF15F02A25135600D456D7 /* DiaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DiaryView.swift; path = HappyPregnancy/Views/DiaryView.swift; sourceTree = "<group>"; };
-		DBEF15F22A25135600D456D7 /* KicksCounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = KicksCounterView.swift; path = HappyPregnancy/Views/KicksCounterView.swift; sourceTree = "<group>"; };
-		DBEF15F42A25135600D456D7 /* ChecklistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ChecklistView.swift; path = HappyPregnancy/Views/ChecklistView.swift; sourceTree = "<group>"; };
-		DBEF15F62A25135600D456D7 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfileView.swift; path = HappyPregnancy/Views/ProfileView.swift; sourceTree = "<group>"; };
-		DBEF15F82A25135600D456D7 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EditProfileView.swift; path = HappyPregnancy/Views/EditProfileView.swift; sourceTree = "<group>"; };
-		DBEF15FA2A25135600D456D7 /* AddMeasurementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddMeasurementView.swift; path = HappyPregnancy/Views/AddMeasurementView.swift; sourceTree = "<group>"; };
-		DBEF15FC2A25135600D456D7 /* AddDoctorQuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddDoctorQuestionView.swift; path = HappyPregnancy/Views/AddDoctorQuestionView.swift; sourceTree = "<group>"; };
-		DBEF15FE2A25135600D456D7 /* PregnancyCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PregnancyCalendarView.swift; path = HappyPregnancy/Views/PregnancyCalendarView.swift; sourceTree = "<group>"; };
-		DBEF16002A25135600D456D7 /* PlaceholderViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlaceholderViews.swift; path = HappyPregnancy/Views/PlaceholderViews.swift; sourceTree = "<group>"; };
+		DBEF15E02A25135600D456D7 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CoreDataManager.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		DBEF15E22A25135600D456D7 /* PregnancyInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PregnancyInfoViewModel.swift; path = PregnancyInfoViewModel.swift; sourceTree = "<group>"; };
+		DBEF15E42A25135600D456D7 /* DiaryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DiaryViewModel.swift; path = Diary/DiaryViewModel.swift; sourceTree = "<group>"; };
+		DBEF15E62A25135600D456D7 /* KicksCounterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = KicksCounterViewModel.swift; path = KicksCounter/KicksCounterViewModel.swift; sourceTree = "<group>"; };
+		DBEF15E82A25135600D456D7 /* ChecklistViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ChecklistViewModel.swift; path = Checklist/ChecklistViewModel.swift; sourceTree = "<group>"; };
+		DBEF15EA2A25135600D456D7 /* MeasurementViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MeasurementViewModel.swift; path = Measurement/MeasurementViewModel.swift; sourceTree = "<group>"; };
+		DBEF15EC2A25135600D456D7 /* DoctorQuestionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DoctorQuestionViewModel.swift; path = DoctorQuestion/DoctorQuestionViewModel.swift; sourceTree = "<group>"; };
+		DBEF15EE2A25135600D456D7 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainTabView.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		DBEF15F02A25135600D456D7 /* DiaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DiaryView.swift; path = DiaryView.swift; sourceTree = "<group>"; };
+		DBEF15F22A25135600D456D7 /* KicksCounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = KicksCounterView.swift; path = KicksCounterView.swift; sourceTree = "<group>"; };
+		DBEF15F42A25135600D456D7 /* ChecklistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ChecklistView.swift; path = ChecklistView.swift; sourceTree = "<group>"; };
+		DBEF15F62A25135600D456D7 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfileView.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		DBEF15F82A25135600D456D7 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EditProfileView.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
+		DBEF15FA2A25135600D456D7 /* AddMeasurementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddMeasurementView.swift; path = AddMeasurementView.swift; sourceTree = "<group>"; };
+		DBEF15FC2A25135600D456D7 /* AddDoctorQuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddDoctorQuestionView.swift; path = AddDoctorQuestionView.swift; sourceTree = "<group>"; };
+		DBEF15FE2A25135600D456D7 /* PregnancyCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PregnancyCalendarView.swift; path = PregnancyCalendarView.swift; sourceTree = "<group>"; };
+		DBEF16002A25135600D456D7 /* PlaceholderViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlaceholderViews.swift; path = PlaceholderViews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,7 +120,7 @@
 			children = (
 				DBEF15E02A25135600D456D7 /* CoreDataManager.swift */,
 			);
-			path = HappyPregnancy/Managers;
+			path = Managers;
 			sourceTree = "<group>";
 		};
 		DBEF16032A25135600D456D7 /* ViewModels */ = {
@@ -133,7 +133,7 @@
 				DBEF15EA2A25135600D456D7 /* MeasurementViewModel.swift */,
 				DBEF15EC2A25135600D456D7 /* DoctorQuestionViewModel.swift */,
 			);
-			path = HappyPregnancy/ViewModels;
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		DBEF16042A25135600D456D7 /* Views */ = {
@@ -150,7 +150,7 @@
 				DBEF15FE2A25135600D456D7 /* PregnancyCalendarView.swift */,
 				DBEF16002A25135600D456D7 /* PlaceholderViews.swift */,
 			);
-			path = HappyPregnancy/Views;
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
