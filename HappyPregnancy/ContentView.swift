@@ -50,41 +50,6 @@ struct CalendarView: View {
     }
 }
 
-struct DiaryView: View {
-    var body: some View {
-        NavigationView {
-            Text("Дневник самочувствия")
-                .navigationTitle("Дневник")
-        }
-    }
-}
-
-struct KicksCounterView: View {
-    var body: some View {
-        NavigationView {
-            Text("Счетчик шевелений")
-                .navigationTitle("Шевеления")
-        }
-    }
-}
-
-struct ChecklistView: View {
-    var body: some View {
-        NavigationView {
-            Text("Чек-лист")
-                .navigationTitle("Чек-лист")
-        }
-    }
-}
-
-struct ProfileView: View {
-    var body: some View {
-        NavigationView {
-            Text("Профиль")
-                .navigationTitle("Профиль")
-        }
-    }
-}
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

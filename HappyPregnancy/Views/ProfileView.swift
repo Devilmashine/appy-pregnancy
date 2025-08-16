@@ -126,7 +126,7 @@ struct InfoItem: View {
 }
 
 struct MeasurementsChartView: View {
-    let measurements: [Measurement]
+    let measurements: [WeightMeasurement]
     
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
@@ -185,7 +185,7 @@ struct MeasurementsView: View {
 }
 
 struct MeasurementRow: View {
-    let measurement: Measurement
+    let measurement: WeightMeasurement
     
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {

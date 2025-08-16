@@ -40,7 +40,7 @@ struct AddMeasurementView: View {
     }
     
     private func saveMeasurement() {
-        let measurement = Measurement(
+        let measurement = WeightMeasurement(
             id: UUID(),
             date: date,
             weight: Double(weight) ?? 0,

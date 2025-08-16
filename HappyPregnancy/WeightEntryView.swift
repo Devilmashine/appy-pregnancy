@@ -6,22 +6,23 @@
 //
 
 import SwiftUI
+import CoreData
 
 struct WeightEntryView: View {
-    @State var height: String = ""
+    @Environment(\.managedObjectContext) private var viewContext
+    @State var bellyCircumference: String = ""
     @State var weight: String = ""
 
     var body: some View {
         VStack {
-            TextField("Рост", text: $height)
+            TextField("Окружность живота", text: $bellyCircumference)
             TextField("Вес", text: $weight)
             Button(action: {
-                let newWeightEntry = WeightEntry(context: managedObjectContext)
-                newWeightEntry.height = Float(height) ?? 0.0
-                newWeightEntry.weight = Float(weight) ?? 0.0
-                newWeightEntry.date = Date()
+                let newMeasurement = MeasurementEntity(context: viewContext)
+                newMeasurement.bellyCircumference = Double(bellyCircumference) ?? 0.0
+                newMeasurement.weight = Double(weight) ?? 0.0
                 do {
-                    try managedObjectContext.save()
+                    try viewContext.save()
                 } catch {
                     print("Ошибка сохранения: \(error.localizedDescription)")
                 }
@@ -32,4 +33,3 @@ struct WeightEntryView: View {
         }
     }
 }
-

@@ -79,10 +79,10 @@ extension ChecklistItem {
     }
 }
 
-extension Measurement {
+extension WeightMeasurement {
     init(from entity: MeasurementEntity) {
-        self.id = entity.id
-        self.date = entity.date
+        self.id = entity.id ?? UUID()
+        self.date = entity.date ?? Date()
         self.weight = entity.weight
         self.bellyCircumference = entity.bellyCircumference
         self.notes = entity.notes
