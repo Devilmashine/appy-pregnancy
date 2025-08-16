@@ -53,7 +53,7 @@ enum ChecklistCategory: String, CaseIterable {
 }
 
 // Модель для измерений
-struct Measurement: Identifiable {
+struct WeightMeasurement: Identifiable {
     let id: UUID
     var date: Date
     var weight: Double

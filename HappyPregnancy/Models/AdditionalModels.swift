@@ -184,7 +184,7 @@ struct HealthData: Codable {
 
 struct ExportData: Codable {
     var pregnancyInfo: PregnancyInfo
-    var measurements: [Measurement]
+    var measurements: [WeightMeasurement]
     var medicalTests: [MedicalTest]
     var meals: [MealEntry]
     var exercises: [ExerciseSession]

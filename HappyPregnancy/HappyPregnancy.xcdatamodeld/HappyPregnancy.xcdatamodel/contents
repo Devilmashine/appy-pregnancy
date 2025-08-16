@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21754" systemVersion="22G5027e" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
     <entity name="PregnancyInfoEntity" representedClassName="PregnancyInfoEntity" syncable="YES" codeGenerationType="class">
-        <attribute name="id" optional="NO" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
         <attribute name="startDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="dueDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="currentWeek" optional="NO" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
@@ -12,48 +12,48 @@
         <attribute name="hospitalName" optional="YES" attributeType="String" usesScalarValueType="NO"/>
     </entity>
     <entity name="DiaryEntryEntity" representedClassName="DiaryEntryEntity" syncable="YES" codeGenerationType="class">
-        <attribute name="id" optional="NO" attributeType="UUID" usesScalarValueType="NO"/>
-        <attribute name="date" optional="NO" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="mood" optional="NO" attributeType="Integer 16" defaultValueString="3" usesScalarValueType="YES"/>
-        <attribute name="symptoms" optional="YES" attributeType="Transformable" customClassName="[String]" usesScalarValueType="NO"/>
+        <attribute name="symptoms" optional="YES" attributeType="Transformable" customClassName="[String]" valueTransformerName="NSSecureUnarchiveFromDataTransformerName" usesScalarValueType="NO"/>
         <attribute name="notes" optional="YES" attributeType="String" usesScalarValueType="NO"/>
-        <attribute name="photos" optional="YES" attributeType="Transformable" customClassName="[Data]" usesScalarValueType="NO"/>
+        <attribute name="photos" optional="YES" attributeType="Transformable" customClassName="[Data]" valueTransformerName="NSSecureUnarchiveFromDataTransformerName" usesScalarValueType="NO"/>
     </entity>
     <entity name="KicksSessionEntity" representedClassName="KicksSessionEntity" syncable="YES" codeGenerationType="class">
-        <attribute name="id" optional="NO" attributeType="UUID" usesScalarValueType="NO"/>
-        <attribute name="date" optional="NO" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="duration" optional="NO" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
         <attribute name="kicksCount" optional="NO" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="notes" optional="YES" attributeType="String" usesScalarValueType="NO"/>
     </entity>
     <entity name="ChecklistItemEntity" representedClassName="ChecklistItemEntity" syncable="YES" codeGenerationType="class">
-        <attribute name="id" optional="NO" attributeType="UUID" usesScalarValueType="NO"/>
-        <attribute name="title" optional="NO" attributeType="String" usesScalarValueType="NO"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="title" optional="NO" attributeType="String" defaultValueString="" usesScalarValueType="NO"/>
         <attribute name="isCompleted" optional="NO" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
-        <attribute name="category" optional="NO" attributeType="String" usesScalarValueType="NO"/>
+        <attribute name="category" optional="NO" attributeType="String" defaultValueString="" usesScalarValueType="NO"/>
         <attribute name="dueDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="notes" optional="YES" attributeType="String" usesScalarValueType="NO"/>
     </entity>
     <entity name="MeasurementEntity" representedClassName="MeasurementEntity" syncable="YES" codeGenerationType="class">
-        <attribute name="id" optional="NO" attributeType="UUID" usesScalarValueType="NO"/>
-        <attribute name="date" optional="NO" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="weight" optional="NO" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
         <attribute name="bellyCircumference" optional="NO" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
         <attribute name="notes" optional="YES" attributeType="String" usesScalarValueType="NO"/>
     </entity>
     <entity name="DoctorQuestionEntity" representedClassName="DoctorQuestionEntity" syncable="YES" codeGenerationType="class">
-        <attribute name="id" optional="NO" attributeType="UUID" usesScalarValueType="NO"/>
-        <attribute name="question" optional="NO" attributeType="String" usesScalarValueType="NO"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="question" optional="NO" attributeType="String" defaultValueString="" usesScalarValueType="NO"/>
         <attribute name="isAnswered" optional="NO" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
         <attribute name="answer" optional="YES" attributeType="String" usesScalarValueType="NO"/>
-        <attribute name="date" optional="NO" attributeType="Date" usesScalarValueType="NO"/>
-        <attribute name="category" optional="NO" attributeType="String" usesScalarValueType="NO"/>
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="category" optional="NO" attributeType="String" defaultValueString="" usesScalarValueType="NO"/>
     </entity>
     <entity name="MealEntryEntity" representedClassName="MealEntryEntity" syncable="YES" codeGenerationType="class">
-        <attribute name="id" optional="NO" attributeType="UUID" usesScalarValueType="NO"/>
-        <attribute name="date" optional="NO" attributeType="Date" usesScalarValueType="NO"/>
-        <attribute name="type" optional="NO" attributeType="String" usesScalarValueType="NO"/>
-        <attribute name="name" optional="NO" attributeType="String" usesScalarValueType="NO"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="type" optional="NO" attributeType="String" defaultValueString="" usesScalarValueType="NO"/>
+        <attribute name="name" optional="NO" attributeType="String" defaultValueString="" usesScalarValueType="NO"/>
         <attribute name="calories" optional="NO" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
         <attribute name="photoURL" optional="YES" attributeType="URI" usesScalarValueType="NO"/>
         <attribute name="notes" optional="YES" attributeType="String" usesScalarValueType="NO"/>

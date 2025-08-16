@@ -3,7 +3,7 @@ import CoreData
 
 class MeasurementViewModel: ObservableObject {
 
-    @Published var measurements: [Measurement] = []
+    @Published var measurements: [WeightMeasurement] = []
 
     private let coreDataManager = CoreDataManager.shared
 
@@ -13,10 +13,10 @@ class MeasurementViewModel: ObservableObject {
 
     func fetchMeasurements() {
         let entities = coreDataManager.fetch(MeasurementEntity.self)
-        self.measurements = entities.map { Measurement(from: $0) }
+        self.measurements = entities.map { WeightMeasurement(from: $0) }
     }
 
-    func addMeasurement(_ measurement: Measurement) {
+    func addMeasurement(_ measurement: WeightMeasurement) {
         let newMeasurement = MeasurementEntity(context: coreDataManager.container.viewContext)
         newMeasurement.id = measurement.id
         newMeasurement.date = measurement.date
@@ -46,7 +46,7 @@ class MeasurementViewModel: ObservableObject {
         fetchMeasurements()
     }
 
-    func getLatestMeasurement() -> Measurement? {
+    func getLatestMeasurement() -> WeightMeasurement? {
         return measurements.sorted { $0.date > $1.date }.first
     }
 }

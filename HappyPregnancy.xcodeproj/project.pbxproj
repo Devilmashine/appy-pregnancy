@@ -31,6 +31,9 @@
 		DBEF15FD2A25135600D456D7 /* AddDoctorQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEF15FC2A25135600D456D7 /* AddDoctorQuestionView.swift */; };
 		DBEF15FF2A25135600D456D7 /* PregnancyCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEF15FE2A25135600D456D7 /* PregnancyCalendarView.swift */; };
 		DBEF16012A25135600D456D7 /* PlaceholderViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEF16002A25135600D456D7 /* PlaceholderViews.swift */; };
+		DEADBEEF00000002 /* AdditionalModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEADBEEF00000001 /* AdditionalModels.swift */; };
+		DEADBEEF00000004 /* MedicalModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEADBEEF00000003 /* MedicalModels.swift */; };
+		DEADBEEF00000006 /* PregnancyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEADBEEF00000005 /* PregnancyModels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +63,12 @@
 		DBEF15FC2A25135600D456D7 /* AddDoctorQuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddDoctorQuestionView.swift; path = HappyPregnancy/Views/AddDoctorQuestionView.swift; sourceTree = "<group>"; };
 		DBEF15FE2A25135600D456D7 /* PregnancyCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PregnancyCalendarView.swift; path = HappyPregnancy/Views/PregnancyCalendarView.swift; sourceTree = "<group>"; };
 		DBEF16002A25135600D456D7 /* PlaceholderViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlaceholderViews.swift; path = HappyPregnancy/Views/PlaceholderViews.swift; sourceTree = "<group>"; };
+		DEADBEEF00000001 /* AdditionalModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HappyPregnancy/Models/AdditionalModels.swift"; sourceTree = "<group>"; };
+		DEADBEEF00000003 /* MedicalModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HappyPregnancy/Models/MedicalModels.swift"; sourceTree = "<group>"; };
+		DEADBEEF00000005 /* PregnancyModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HappyPregnancy/Models/PregnancyModels.swift"; sourceTree = "<group>"; };
+		DEADBEEF00000001 /* AdditionalModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HappyPregnancy/Models/AdditionalModels.swift"; sourceTree = "<group>"; };
+		DEADBEEF00000003 /* MedicalModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HappyPregnancy/Models/MedicalModels.swift"; sourceTree = "<group>"; };
+		DEADBEEF00000005 /* PregnancyModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HappyPregnancy/Models/PregnancyModels.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +101,9 @@
 		DBEF15AF2A25130100D456D7 /* HappyPregnancy */ = {
 			isa = PBXGroup;
 			children = (
+				DEADBEEF00000001 /* AdditionalModels.swift */,
+				DEADBEEF00000003 /* MedicalModels.swift */,
+				DEADBEEF00000005 /* PregnancyModels.swift */,
 				DBEF15B02A25130100D456D7 /* HappyPregnancyApp.swift */,
 				DBEF15C42A25135600D456D7 /* WeightEntryView.swift */,
 				DBEF15B22A25130100D456D7 /* ContentView.swift */,
@@ -223,6 +235,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEADBEEF00000002 /* AdditionalModels.swift in Sources */,
+				DEADBEEF00000004 /* MedicalModels.swift in Sources */,
+				DEADBEEF00000006 /* PregnancyModels.swift in Sources */,
 				DBEF15C52A25135600D456D7 /* WeightEntryView.swift in Sources */,
 				DBEF15BA2A25130400D456D7 /* Persistence.swift in Sources */,
 				DBEF15BD2A25130400D456D7 /* HappyPregnancy.xcdatamodeld in Sources */,
