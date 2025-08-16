@@ -39,7 +39,7 @@ git clone https://github.com/yourusername/happy-pregnancy.git
 2. Откройте проект в Xcode:
 ```bash
 cd happy-pregnancy
-open Happy\ Pregnasy.xcodeproj
+open Happy\ Pregnancy.xcodeproj
 ```
 
 3. Соберите и запустите проект (⌘R)
@@ -47,7 +47,7 @@ open Happy\ Pregnasy.xcodeproj
 ## Структура проекта
 
 ```
-Happy Pregnasy/
+HappyPregnancy/
 ├── Models/         # Модели данных
 ├── Views/          # Представления
 ├── ViewModels/     # ViewModels

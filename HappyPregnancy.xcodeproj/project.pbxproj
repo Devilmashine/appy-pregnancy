@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBEF15B12A25130100D456D7 /* HappyPregnancyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEF15B02A25130100D456D7 /* HappyPregnancyApp.swift */; };
+		DBEF15B32A25130100D456D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEF15B22A25130100D456D7 /* ContentView.swift */; };
+		DBEF15B52A25130400D456D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBEF15B42A25130400D456D7 /* Assets.xcassets */; };
+		DBEF15B82A25130400D456D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBEF15B72A25130400D456D7 /* Preview Assets.xcassets */; };
+		DBEF15BA2A25130400D456D7 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEF15B92A25130400D456D7 /* Persistence.swift */; };
+		DBEF15BD2A25130400D456D7 /* HappyPregnancy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DBEF15BB2A25130400D456D7 /* HappyPregnancy.xcdatamodeld */; };
+		DBEF15C52A25135600D456D7 /* WeightEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEF15C42A25135600D456D7 /* WeightEntryView.swift */; };
+		DBEF15E12A25135600D456D7 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEF15E02A25135600D456D7 /* CoreDataManager.swift */; };
+		DBEF15E32A25135600D456D7 /* PregnancyInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEF15E22A25135600D456D7 /* PregnancyInfoViewModel.swift */; };
+		DBEF15E52A25135600D456D7 /* DiaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEF15E42A25135600D456D7 /* DiaryViewModel.swift */; };
+		DBEF15E72A25135600D456D7 /* KicksCounterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEF15E62A25135600D456D7 /* KicksCounterViewModel.swift */; };
+		DBEF15E92A25135600D456D7 /* ChecklistViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEF15E82A25135600D456D7 /* ChecklistViewModel.swift */; };
+		DBEF15EB2A25135600D456D7 /* MeasurementViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEF15EA2A25135600D456D7 /* MeasurementViewModel.swift */; };
+		DBEF15ED2A25135600D456D7 /* DoctorQuestionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEF15EC2A25135600D456D7 /* DoctorQuestionViewModel.swift */; };
+		DBEF15EF2A25135600D456D7 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEF15EE2A25135600D456D7 /* MainTabView.swift */; };
+		DBEF15F12A25135600D456D7 /* DiaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEF15F02A25135600D456D7 /* DiaryView.swift */; };
+		DBEF15F32A25135600D456D7 /* KicksCounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEF15F22A25135600D456D7 /* KicksCounterView.swift */; };
+		DBEF15F52A25135600D456D7 /* ChecklistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEF15F42A25135600D456D7 /* ChecklistView.swift */; };
+		DBEF15F72A25135600D456D7 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEF15F62A25135600D456D7 /* ProfileView.swift */; };
+		DBEF15F92A25135600D456D7 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEF15F82A25135600D456D7 /* EditProfileView.swift */; };
+		DBEF15FB2A25135600D456D7 /* AddMeasurementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEF15FA2A25135600D456D7 /* AddMeasurementView.swift */; };
+		DBEF15FD2A25135600D456D7 /* AddDoctorQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEF15FC2A25135600D456D7 /* AddDoctorQuestionView.swift */; };
+		DBEF15FF2A25135600D456D7 /* PregnancyCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEF15FE2A25135600D456D7 /* PregnancyCalendarView.swift */; };
+		DBEF16012A25135600D456D7 /* PlaceholderViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEF16002A25135600D456D7 /* PlaceholderViews.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DBEF15AD2A25130100D456D7 /* Happy Pregnancy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Happy Pregnancy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBEF15B02A25130100D456D7 /* HappyPregnancyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyPregnancyApp.swift; sourceTree = "<group>"; };
+		DBEF15B22A25130100D456D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DBEF15B42A25130400D456D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBEF15B72A25130400D456D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DBEF15B92A25130400D456D7 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		DBEF15BC2A25130400D456D7 /* HappyPregnancy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HappyPregnancy.xcdatamodel; sourceTree = "<group>"; };
+		DBEF15BE2A25130400D456D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBEF15C42A25135600D456D7 /* WeightEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightEntryView.swift; sourceTree = "<group>"; };
+		DBEF15E02A25135600D456D7 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CoreDataManager.swift; path = HappyPregnancy/Managers/CoreDataManager.swift; sourceTree = "<group>"; };
+		DBEF15E22A25135600D456D7 /* PregnancyInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PregnancyInfoViewModel.swift; path = HappyPregnancy/ViewModels/PregnancyInfoViewModel.swift; sourceTree = "<group>"; };
+		DBEF15E42A25135600D456D7 /* DiaryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DiaryViewModel.swift; path = HappyPregnancy/ViewModels/Diary/DiaryViewModel.swift; sourceTree = "<group>"; };
+		DBEF15E62A25135600D456D7 /* KicksCounterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = KicksCounterViewModel.swift; path = HappyPregnancy/ViewModels/KicksCounter/KicksCounterViewModel.swift; sourceTree = "<group>"; };
+		DBEF15E82A25135600D456D7 /* ChecklistViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ChecklistViewModel.swift; path = HappyPregnancy/ViewModels/Checklist/ChecklistViewModel.swift; sourceTree = "<group>"; };
+		DBEF15EA2A25135600D456D7 /* MeasurementViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MeasurementViewModel.swift; path = HappyPregnancy/ViewModels/Measurement/MeasurementViewModel.swift; sourceTree = "<group>"; };
+		DBEF15EC2A25135600D456D7 /* DoctorQuestionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DoctorQuestionViewModel.swift; path = HappyPregnancy/ViewModels/DoctorQuestion/DoctorQuestionViewModel.swift; sourceTree = "<group>"; };
+		DBEF15EE2A25135600D456D7 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainTabView.swift; path = HappyPregnancy/Views/MainTabView.swift; sourceTree = "<group>"; };
+		DBEF15F02A25135600D456D7 /* DiaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DiaryView.swift; path = HappyPregnancy/Views/DiaryView.swift; sourceTree = "<group>"; };
+		DBEF15F22A25135600D456D7 /* KicksCounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = KicksCounterView.swift; path = HappyPregnancy/Views/KicksCounterView.swift; sourceTree = "<group>"; };
+		DBEF15F42A25135600D456D7 /* ChecklistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ChecklistView.swift; path = HappyPregnancy/Views/ChecklistView.swift; sourceTree = "<group>"; };
+		DBEF15F62A25135600D456D7 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfileView.swift; path = HappyPregnancy/Views/ProfileView.swift; sourceTree = "<group>"; };
+		DBEF15F82A25135600D456D7 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EditProfileView.swift; path = HappyPregnancy/Views/EditProfileView.swift; sourceTree = "<group>"; };
+		DBEF15FA2A25135600D456D7 /* AddMeasurementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddMeasurementView.swift; path = HappyPregnancy/Views/AddMeasurementView.swift; sourceTree = "<group>"; };
+		DBEF15FC2A25135600D456D7 /* AddDoctorQuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddDoctorQuestionView.swift; path = HappyPregnancy/Views/AddDoctorQuestionView.swift; sourceTree = "<group>"; };
+		DBEF15FE2A25135600D456D7 /* PregnancyCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PregnancyCalendarView.swift; path = HappyPregnancy/Views/PregnancyCalendarView.swift; sourceTree = "<group>"; };
+		DBEF16002A25135600D456D7 /* PlaceholderViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlaceholderViews.swift; path = HappyPregnancy/Views/PlaceholderViews.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBEF15AA2A25130100D456D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBEF15A42A25130100D456D7 = {
+			isa = PBXGroup;
+			children = (
+				DBEF15AF2A25130100D456D7 /* HappyPregnancy */,
+				DBEF15AE2A25130100D456D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBEF15AE2A25130100D456D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBEF15AD2A25130100D456D7 /* Happy Pregnancy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBEF15AF2A25130100D456D7 /* HappyPregnancy */ = {
+			isa = PBXGroup;
+			children = (
+				DBEF15B02A25130100D456D7 /* HappyPregnancyApp.swift */,
+				DBEF15C42A25135600D456D7 /* WeightEntryView.swift */,
+				DBEF15B22A25130100D456D7 /* ContentView.swift */,
+				DBEF15B42A25130400D456D7 /* Assets.xcassets */,
+				DBEF15B92A25130400D456D7 /* Persistence.swift */,
+				DBEF15BE2A25130400D456D7 /* Info.plist */,
+				DBEF15BB2A25130400D456D7 /* HappyPregnancy.xcdatamodeld */,
+				DBEF15B62A25130400D456D7 /* Preview Content */,
+				DBEF16022A25135600D456D7 /* Managers */,
+				DBEF16032A25135600D456D7 /* ViewModels */,
+				DBEF16042A25135600D456D7 /* Views */,
+			);
+			path = HappyPregnancy;
+			sourceTree = "<group>";
+		};
+		DBEF15B62A25130400D456D7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DBEF15B72A25130400D456D7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DBEF16022A25135600D456D7 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				DBEF15E02A25135600D456D7 /* CoreDataManager.swift */,
+			);
+			path = HappyPregnancy/Managers;
+			sourceTree = "<group>";
+		};
+		DBEF16032A25135600D456D7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				DBEF15E22A25135600D456D7 /* PregnancyInfoViewModel.swift */,
+				DBEF15E42A25135600D456D7 /* DiaryViewModel.swift */,
+				DBEF15E62A25135600D456D7 /* KicksCounterViewModel.swift */,
+				DBEF15E82A25135600D456D7 /* ChecklistViewModel.swift */,
+				DBEF15EA2A25135600D456D7 /* MeasurementViewModel.swift */,
+				DBEF15EC2A25135600D456D7 /* DoctorQuestionViewModel.swift */,
+			);
+			path = HappyPregnancy/ViewModels;
+			sourceTree = "<group>";
+		};
+		DBEF16042A25135600D456D7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DBEF15EE2A25135600D456D7 /* MainTabView.swift */,
+				DBEF15F02A25135600D456D7 /* DiaryView.swift */,
+				DBEF15F22A25135600D456D7 /* KicksCounterView.swift */,
+				DBEF15F42A25135600D456D7 /* ChecklistView.swift */,
+				DBEF15F62A25135600D456D7 /* ProfileView.swift */,
+				DBEF15F82A25135600D456D7 /* EditProfileView.swift */,
+				DBEF15FA2A25135600D456D7 /* AddMeasurementView.swift */,
+				DBEF15FC2A25135600D456D7 /* AddDoctorQuestionView.swift */,
+				DBEF15FE2A25135600D456D7 /* PregnancyCalendarView.swift */,
+				DBEF16002A25135600D456D7 /* PlaceholderViews.swift */,
+			);
+			path = HappyPregnancy/Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBEF15AC2A25130100D456D7 /* Happy Pregnancy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBEF15C12A25130400D456D7 /* Build configuration list for PBXNativeTarget "Happy Pregnancy" */;
+			buildPhases = (
+				DBEF15A92A25130100D456D7 /* Sources */,
+				DBEF15AA2A25130100D456D7 /* Frameworks */,
+				DBEF15AB2A25130100D456D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Happy Pregnancy";
+			productName = "Happy Pregnancy";
+			productReference = DBEF15AD2A25130100D456D7 /* Happy Pregnancy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBEF15A52A25130100D456D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					DBEF15AC2A25130100D456D7 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = DBEF15A82A25130100D456D7 /* Build configuration list for PBXProject "Happy Pregnancy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBEF15A42A25130100D456D7;
+			productRefGroup = DBEF15AE2A25130100D456D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBEF15AC2A25130100D456D7 /* Happy Pregnancy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBEF15AB2A25130100D456D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBEF15B82A25130400D456D7 /* Preview Assets.xcassets in Resources */,
+				DBEF15B52A25130400D456D7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBEF15A92A25130100D456D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBEF15C52A25135600D456D7 /* WeightEntryView.swift in Sources */,
+				DBEF15BA2A25130400D456D7 /* Persistence.swift in Sources */,
+				DBEF15BD2A25130400D456D7 /* HappyPregnancy.xcdatamodeld in Sources */,
+				DBEF15B32A25130100D456D7 /* ContentView.swift in Sources */,
+				DBEF15B12A25130100D456D7 /* HappyPregnancyApp.swift in Sources */,
+				DBEF15E12A25135600D456D7 /* CoreDataManager.swift in Sources */,
+				DBEF15E32A25135600D456D7 /* PregnancyInfoViewModel.swift in Sources */,
+				DBEF15E52A25135600D456D7 /* DiaryViewModel.swift in Sources */,
+				DBEF15E72A25135600D456D7 /* KicksCounterViewModel.swift in Sources */,
+				DBEF15E92A25135600D456D7 /* ChecklistViewModel.swift in Sources */,
+				DBEF15EB2A25135600D456D7 /* MeasurementViewModel.swift in Sources */,
+				DBEF15ED2A25135600D456D7 /* DoctorQuestionViewModel.swift in Sources */,
+				DBEF15EF2A25135600D456D7 /* MainTabView.swift in Sources */,
+				DBEF15F12A25135600D456D7 /* DiaryView.swift in Sources */,
+				DBEF15F32A25135600D456D7 /* KicksCounterView.swift in Sources */,
+				DBEF15F52A25135600D456D7 /* ChecklistView.swift in Sources */,
+				DBEF15F72A25135600D456D7 /* ProfileView.swift in Sources */,
+				DBEF15F92A25135600D456D7 /* EditProfileView.swift in Sources */,
+				DBEF15FB2A25135600D456D7 /* AddMeasurementView.swift in Sources */,
+				DBEF15FD2A25135600D456D7 /* AddDoctorQuestionView.swift in Sources */,
+				DBEF15FF2A25135600D456D7 /* PregnancyCalendarView.swift in Sources */,
+				DBEF16012A25135600D456D7 /* PlaceholderViews.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DBEF15BF2A25130400D456D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBEF15C02A25130400D456D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBEF15C22A25130400D456D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HappyPregnancy/Preview Content\"";
+				DEVELOPMENT_TEAM = RB38X5X6TQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "devilmashine.Happy-Pregnancy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBEF15C32A25130400D456D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HappyPregnancy/Preview Content\"";
+				DEVELOPMENT_TEAM = RB38X5X6TQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "devilmashine.Happy-Pregnancy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBEF15A82A25130100D456D7 /* Build configuration list for PBXProject "Happy Pregnancy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBEF15BF2A25130400D456D7 /* Debug */,
+				DBEF15C02A25130400D456D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBEF15C12A25130400D456D7 /* Build configuration list for PBXNativeTarget "Happy Pregnancy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBEF15C22A25130400D456D7 /* Debug */,
+				DBEF15C32A25130400D456D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DBEF15BB2A25130400D456D7 /* HappyPregnancy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DBEF15BC2A25130400D456D7 /* HappyPregnancy.xcdatamodel */,
+			);
+			currentVersion = DBEF15BC2A25130400D456D7 /* HappyPregnancy.xcdatamodel */;
+			path = HappyPregnancy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DBEF15A52A25130100D456D7 /* Project object */;
+}
