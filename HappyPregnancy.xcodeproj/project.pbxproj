@@ -46,6 +46,7 @@
 		DBEF15BC2A25130400D456D7 /* HappyPregnancy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HappyPregnancy.xcdatamodel; sourceTree = "<group>"; };
 		DBEF15BE2A25130400D456D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBEF15C42A25135600D456D7 /* WeightEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightEntryView.swift; sourceTree = "<group>"; };
+
 		DBEF15E02A25135600D456D7 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CoreDataManager.swift; path = HappyPregnancy/Managers/CoreDataManager.swift; sourceTree = "<group>"; };
 		DBEF15E22A25135600D456D7 /* PregnancyInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PregnancyInfoViewModel.swift; path = HappyPregnancy/ViewModels/PregnancyInfoViewModel.swift; sourceTree = "<group>"; };
 		DBEF15E42A25135600D456D7 /* DiaryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DiaryViewModel.swift; path = HappyPregnancy/ViewModels/Diary/DiaryViewModel.swift; sourceTree = "<group>"; };
@@ -69,6 +70,7 @@
 		DEADBEEF00000001 /* AdditionalModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HappyPregnancy/Models/AdditionalModels.swift"; sourceTree = "<group>"; };
 		DEADBEEF00000003 /* MedicalModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HappyPregnancy/Models/MedicalModels.swift"; sourceTree = "<group>"; };
 		DEADBEEF00000005 /* PregnancyModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HappyPregnancy/Models/PregnancyModels.swift"; sourceTree = "<group>"; };
+
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,7 +133,7 @@
 			children = (
 				DBEF15E02A25135600D456D7 /* CoreDataManager.swift */,
 			);
-			path = HappyPregnancy/Managers;
+			path = Managers;
 			sourceTree = "<group>";
 		};
 		DBEF16032A25135600D456D7 /* ViewModels */ = {
@@ -144,7 +146,7 @@
 				DBEF15EA2A25135600D456D7 /* MeasurementViewModel.swift */,
 				DBEF15EC2A25135600D456D7 /* DoctorQuestionViewModel.swift */,
 			);
-			path = HappyPregnancy/ViewModels;
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		DBEF16042A25135600D456D7 /* Views */ = {
@@ -161,7 +163,7 @@
 				DBEF15FE2A25135600D456D7 /* PregnancyCalendarView.swift */,
 				DBEF16002A25135600D456D7 /* PlaceholderViews.swift */,
 			);
-			path = HappyPregnancy/Views;
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
