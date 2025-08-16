@@ -116,7 +116,6 @@
 				DBEF16032A25135600D456D7 /* ViewModels */,
 				DBEF16042A25135600D456D7 /* Views */,
 			);
-			path = HappyPregnancy;
 			sourceTree = "<group>";
 		};
 		DBEF15B62A25130400D456D7 /* Preview Content */ = {
